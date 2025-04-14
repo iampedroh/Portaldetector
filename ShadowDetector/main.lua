@@ -3,7 +3,7 @@
 
 local teleportar = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/teleport.lua"))()
 local webhook = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/webhook.lua"))()
-local config = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/config.lua"))()
+_G.config = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/config.lua"))()
 local historico = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/historico.lua"))()
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/iampedroh/Portaldetector/main/ShadowDetector/ui.lua"))()
 

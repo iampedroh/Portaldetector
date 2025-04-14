@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService")
-local config = require(script.Parent.config)
+local config = _G.config
 
 local module = {}
 
